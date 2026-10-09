@@ -1,0 +1,892 @@
+{
+ "path": "/home/znao/farmo/projects/evidence-trail/data/ledger.json",
+ "cash": 7982.000007666084,
+ "limits": {
+  "max_position_pct": 10.0,
+  "max_exposure_pct": 30.0,
+  "max_open_positions": 3,
+  "max_daily_loss_pct": 3.0,
+  "min_confidence": 0.6
+ },
+ "positions": [
+  {
+   "id": "P0001",
+   "symbol": "ETHUSDT",
+   "side": "long",
+   "entry": 2551.63,
+   "size_units": 0.39190635,
+   "notional": 999.9999998505001,
+   "stop": 2475.0811,
+   "target": 2679.2115000000003,
+   "opened_at": "2026-10-09T06:22:06Z",
+   "trail_entry": "3598c11f9504a6c390753063926b64bcaa0e8ff70bafaef9d43c365b44a457a6",
+   "status": "closed",
+   "exit": 2475.0811,
+   "closed_at": "2026-10-09T06:22:06Z",
+   "pnl": -29.99999999551509
+  },
+  {
+   "id": "P0002",
+   "symbol": "ETHUSDT",
+   "side": "long",
+   "entry": 2416.5,
+   "size_units": 0.41133871,
+   "notional": 993.999992715,
+   "stop": 2344.005,
+   "target": 2537.3250000000003,
+   "opened_at": "2026-10-09T06:22:06Z",
+   "trail_entry": "c510fafa6fb3f716ce66b5706181f1be8bfbe0c4b6cdad5cde21c22435046438",
+   "status": "open",
+   "exit": null,
+   "closed_at": null,
+   "pnl": 0.0
+  },
+  {
+   "id": "P0003",
+   "symbol": "SOLUSDT",
+   "side": "long",
+   "entry": 108.57,
+   "size_units": 9.15538362,
+   "notional": 993.9999996234,
+   "stop": 105.31289999999998,
+   "target": 113.99849999999999,
+   "opened_at": "2026-10-09T06:22:07Z",
+   "trail_entry": "0a3c7ead9abb34508307acffcf24b5c1d2bd42d4dbc702ce82ae6325cdf5a2d8",
+   "status": "open",
+   "exit": null,
+   "closed_at": null,
+   "pnl": 0.0
+  }
+ ],
+ "day_start_equity": 10000.0,
+ "day": "2026-10-09",
+ "rejects": [
+  {
+   "ts": "2026-10-09T06:22:01Z",
+   "symbol": "BTCUSDT",
+   "failed": [
+    "confidence"
+   ],
+   "detail": "confidence: confidence 0.0 >= 0.6"
+  },
+  {
+   "ts": "2026-10-09T06:22:01Z",
+   "symbol": "ETHUSDT",
+   "failed": [
+    "confidence"
+   ],
+   "detail": "confidence: confidence 0.0 >= 0.6"
+  },
+  {
+   "ts": "2026-10-09T06:22:01Z",
+   "symbol": "SOLUSDT",
+   "failed": [
+    "confidence"
+   ],
+   "detail": "confidence: confidence 0.0 >= 0.6"
+  },
+  {
+   "ts": "2026-10-09T06:22:06Z",
+   "symbol": "BTCUSDT",
+   "failed": [
+    "confidence",
+    "position_size"
+   ],
+   "detail": "confidence: confidence 0.43 >= 0.6; position_size: notional 1000.00 <= 10.0% of equity (1000.00)"
+  },
+  {
+   "ts": "2026-10-09T06:22:06Z",
+   "symbol": "BTCUSDT",
+   "failed": [
+    "confidence"
+   ],
+   "detail": "confidence: confidence 0.46 >= 0.6"
+  },
+  {
+   "ts": "2026-10-09T06:22:06Z",
+   "symbol": "BTCUSDT",
+   "failed": [
+    "confidence",
+    "position_size"
+   ],
+   "detail": "confidence: confidence 0.44 >= 0.6; position_size: notional 1000.00 <= 10.0% of equity (1000.00)"
+  },
+  {
+   "ts": "2026-10-09T06:22:06Z",
+   "symbol": "BTCUSDT",
+   "failed": [
+    "confidence"
+   ],
+   "detail": "confidence: confidence 0.44 >= 0.6"
+  },
+  {
+   "ts": "2026-10-09T06:22:06Z",
+   "symbol": "BTCUSDT",
+   "failed": [
+    "confidence",
+    "position_size"
+   ],
+   "detail": "confidence: confidence 0.43 >= 0.6; position_size: notional 1000.00 <= 10.0% of equity (1000.00)"
+  },
+  {
+   "ts": "2026-10-09T06:22:06Z",
+   "symbol": "BTCUSDT",
+   "failed": [
+    "confidence"
+   ],
+   "detail": "confidence: confidence 0.44 >= 0.6"
+  },
+  {
+   "ts": "2026-10-09T06:22:06Z",
+   "symbol": "BTCUSDT",
+   "failed": [
+    "confidence"
+   ],
+   "detail": "confidence: confidence 0.44 >= 0.6"
+  },
+  {
+   "ts": "2026-10-09T06:22:06Z",
+   "symbol": "BTCUSDT",
+   "failed": [
+    "confidence",
+    "position_size"
+   ],
+   "detail": "confidence: confidence 0.45 >= 0.6; position_size: notional 1000.00 <= 10.0% of equity (1000.00)"
+  },
+  {
+   "ts": "2026-10-09T06:22:06Z",
+   "symbol": "BTCUSDT",
+   "failed": [
+    "confidence"
+   ],
+   "detail": "confidence: confidence 0.46 >= 0.6"
+  },
+  {
+   "ts": "2026-10-09T06:22:06Z",
+   "symbol": "BTCUSDT",
+   "failed": [
+    "confidence",
+    "position_size"
+   ],
+   "detail": "confidence: confidence 0.46 >= 0.6; position_size: notional 1000.00 <= 10.0% of equity (1000.00)"
+  },
+  {
+   "ts": "2026-10-09T06:22:06Z",
+   "symbol": "BTCUSDT",
+   "failed": [
+    "confidence"
+   ],
+   "detail": "confidence: confidence 0.46 >= 0.6"
+  },
+  {
+   "ts": "2026-10-09T06:22:06Z",
+   "symbol": "BTCUSDT",
+   "failed": [
+    "confidence",
+    "position_size"
+   ],
+   "detail": "confidence: confidence 0.48 >= 0.6; position_size: notional 1000.00 <= 10.0% of equity (1000.00)"
+  },
+  {
+   "ts": "2026-10-09T06:22:06Z",
+   "symbol": "BTCUSDT",
+   "failed": [
+    "confidence",
+    "position_size"
+   ],
+   "detail": "confidence: confidence 0.5 >= 0.6; position_size: notional 1000.00 <= 10.0% of equity (1000.00)"
+  },
+  {
+   "ts": "2026-10-09T06:22:06Z",
+   "symbol": "BTCUSDT",
+   "failed": [
+    "confidence",
+    "position_size"
+   ],
+   "detail": "confidence: confidence 0.51 >= 0.6; position_size: notional 1000.00 <= 10.0% of equity (1000.00)"
+  },
+  {
+   "ts": "2026-10-09T06:22:06Z",
+   "symbol": "BTCUSDT",
+   "failed": [
+    "confidence"
+   ],
+   "detail": "confidence: confidence 0.48 >= 0.6"
+  },
+  {
+   "ts": "2026-10-09T06:22:06Z",
+   "symbol": "BTCUSDT",
+   "failed": [
+    "confidence",
+    "position_size"
+   ],
+   "detail": "confidence: confidence 0.49 >= 0.6; position_size: notional 1000.00 <= 10.0% of equity (1000.00)"
+  },
+  {
+   "ts": "2026-10-09T06:22:06Z",
+   "symbol": "BTCUSDT",
+   "failed": [
+    "confidence",
+    "position_size"
+   ],
+   "detail": "confidence: confidence 0.5 >= 0.6; position_size: notional 1000.00 <= 10.0% of equity (1000.00)"
+  },
+  {
+   "ts": "2026-10-09T06:22:06Z",
+   "symbol": "BTCUSDT",
+   "failed": [
+    "confidence"
+   ],
+   "detail": "confidence: confidence 0.48 >= 0.6"
+  },
+  {
+   "ts": "2026-10-09T06:22:06Z",
+   "symbol": "BTCUSDT",
+   "failed": [
+    "confidence"
+   ],
+   "detail": "confidence: confidence 0.48 >= 0.6"
+  },
+  {
+   "ts": "2026-10-09T06:22:06Z",
+   "symbol": "BTCUSDT",
+   "failed": [
+    "confidence",
+    "position_size"
+   ],
+   "detail": "confidence: confidence 0.43 >= 0.6; position_size: notional 1000.00 <= 10.0% of equity (1000.00)"
+  },
+  {
+   "ts": "2026-10-09T06:22:06Z",
+   "symbol": "BTCUSDT",
+   "failed": [
+    "confidence",
+    "position_size"
+   ],
+   "detail": "confidence: confidence 0.45 >= 0.6; position_size: notional 1000.00 <= 10.0% of equity (1000.00)"
+  },
+  {
+   "ts": "2026-10-09T06:22:06Z",
+   "symbol": "BTCUSDT",
+   "failed": [
+    "confidence"
+   ],
+   "detail": "confidence: confidence 0.45 >= 0.6"
+  },
+  {
+   "ts": "2026-10-09T06:22:06Z",
+   "symbol": "BTCUSDT",
+   "failed": [
+    "confidence",
+    "position_size"
+   ],
+   "detail": "confidence: confidence 0.43 >= 0.6; position_size: notional 1000.00 <= 10.0% of equity (1000.00)"
+  },
+  {
+   "ts": "2026-10-09T06:22:06Z",
+   "symbol": "BTCUSDT",
+   "failed": [
+    "confidence",
+    "position_size"
+   ],
+   "detail": "confidence: confidence 0.43 >= 0.6; position_size: notional 1000.00 <= 10.0% of equity (1000.00)"
+  },
+  {
+   "ts": "2026-10-09T06:22:06Z",
+   "symbol": "BTCUSDT",
+   "failed": [
+    "confidence",
+    "position_size"
+   ],
+   "detail": "confidence: confidence 0.45 >= 0.6; position_size: notional 1000.00 <= 10.0% of equity (1000.00)"
+  },
+  {
+   "ts": "2026-10-09T06:22:06Z",
+   "symbol": "BTCUSDT",
+   "failed": [
+    "confidence"
+   ],
+   "detail": "confidence: confidence 0.44 >= 0.6"
+  },
+  {
+   "ts": "2026-10-09T06:22:06Z",
+   "symbol": "BTCUSDT",
+   "failed": [
+    "confidence",
+    "position_size"
+   ],
+   "detail": "confidence: confidence 0.46 >= 0.6; position_size: notional 1000.00 <= 10.0% of equity (1000.00)"
+  },
+  {
+   "ts": "2026-10-09T06:22:06Z",
+   "symbol": "BTCUSDT",
+   "failed": [
+    "confidence",
+    "position_size"
+   ],
+   "detail": "confidence: confidence 0.47 >= 0.6; position_size: notional 1000.00 <= 10.0% of equity (1000.00)"
+  },
+  {
+   "ts": "2026-10-09T06:22:06Z",
+   "symbol": "BTCUSDT",
+   "failed": [
+    "confidence",
+    "position_size"
+   ],
+   "detail": "confidence: confidence 0.47 >= 0.6; position_size: notional 1000.00 <= 10.0% of equity (1000.00)"
+  },
+  {
+   "ts": "2026-10-09T06:22:06Z",
+   "symbol": "BTCUSDT",
+   "failed": [
+    "confidence",
+    "position_size"
+   ],
+   "detail": "confidence: confidence 0.4 >= 0.6; position_size: notional 1000.00 <= 10.0% of equity (1000.00)"
+  },
+  {
+   "ts": "2026-10-09T06:22:06Z",
+   "symbol": "BTCUSDT",
+   "failed": [
+    "confidence"
+   ],
+   "detail": "confidence: confidence 0.41 >= 0.6"
+  },
+  {
+   "ts": "2026-10-09T06:22:06Z",
+   "symbol": "BTCUSDT",
+   "failed": [
+    "confidence"
+   ],
+   "detail": "confidence: confidence 0.41 >= 0.6"
+  },
+  {
+   "ts": "2026-10-09T06:22:06Z",
+   "symbol": "BTCUSDT",
+   "failed": [
+    "confidence"
+   ],
+   "detail": "confidence: confidence 0.46 >= 0.6"
+  },
+  {
+   "ts": "2026-10-09T06:22:06Z",
+   "symbol": "BTCUSDT",
+   "failed": [
+    "confidence",
+    "position_size"
+   ],
+   "detail": "confidence: confidence 0.47 >= 0.6; position_size: notional 1000.00 <= 10.0% of equity (1000.00)"
+  },
+  {
+   "ts": "2026-10-09T06:22:06Z",
+   "symbol": "BTCUSDT",
+   "failed": [
+    "confidence",
+    "position_size"
+   ],
+   "detail": "confidence: confidence 0.46 >= 0.6; position_size: notional 1000.00 <= 10.0% of equity (1000.00)"
+  },
+  {
+   "ts": "2026-10-09T06:22:06Z",
+   "symbol": "BTCUSDT",
+   "failed": [
+    "confidence"
+   ],
+   "detail": "confidence: confidence 0.42 >= 0.6"
+  },
+  {
+   "ts": "2026-10-09T06:22:06Z",
+   "symbol": "BTCUSDT",
+   "failed": [
+    "confidence",
+    "position_size"
+   ],
+   "detail": "confidence: confidence 0.4 >= 0.6; position_size: notional 1000.00 <= 10.0% of equity (1000.00)"
+  },
+  {
+   "ts": "2026-10-09T06:22:06Z",
+   "symbol": "BTCUSDT",
+   "failed": [
+    "confidence",
+    "position_size"
+   ],
+   "detail": "confidence: confidence 0.4 >= 0.6; position_size: notional 1000.00 <= 10.0% of equity (1000.00)"
+  },
+  {
+   "ts": "2026-10-09T06:22:06Z",
+   "symbol": "BTCUSDT",
+   "failed": [
+    "confidence"
+   ],
+   "detail": "confidence: confidence 0.4 >= 0.6"
+  },
+  {
+   "ts": "2026-10-09T06:22:06Z",
+   "symbol": "ETHUSDT",
+   "failed": [
+    "confidence"
+   ],
+   "detail": "confidence: confidence 0.42 >= 0.6"
+  },
+  {
+   "ts": "2026-10-09T06:22:06Z",
+   "symbol": "ETHUSDT",
+   "failed": [
+    "confidence",
+    "position_size"
+   ],
+   "detail": "confidence: confidence 0.5 >= 0.6; position_size: notional 1000.00 <= 10.0% of equity (1000.00)"
+  },
+  {
+   "ts": "2026-10-09T06:22:06Z",
+   "symbol": "ETHUSDT",
+   "failed": [
+    "confidence",
+    "position_size"
+   ],
+   "detail": "confidence: confidence 0.5 >= 0.6; position_size: notional 1000.00 <= 10.0% of equity (1000.00)"
+  },
+  {
+   "ts": "2026-10-09T06:22:06Z",
+   "symbol": "ETHUSDT",
+   "failed": [
+    "confidence"
+   ],
+   "detail": "confidence: confidence 0.51 >= 0.6"
+  },
+  {
+   "ts": "2026-10-09T06:22:06Z",
+   "symbol": "ETHUSDT",
+   "failed": [
+    "confidence"
+   ],
+   "detail": "confidence: confidence 0.49 >= 0.6"
+  },
+  {
+   "ts": "2026-10-09T06:22:06Z",
+   "symbol": "ETHUSDT",
+   "failed": [
+    "confidence"
+   ],
+   "detail": "confidence: confidence 0.49 >= 0.6"
+  },
+  {
+   "ts": "2026-10-09T06:22:06Z",
+   "symbol": "ETHUSDT",
+   "failed": [
+    "confidence"
+   ],
+   "detail": "confidence: confidence 0.49 >= 0.6"
+  },
+  {
+   "ts": "2026-10-09T06:22:06Z",
+   "symbol": "ETHUSDT",
+   "failed": [
+    "confidence"
+   ],
+   "detail": "confidence: confidence 0.51 >= 0.6"
+  },
+  {
+   "ts": "2026-10-09T06:22:06Z",
+   "symbol": "ETHUSDT",
+   "failed": [
+    "confidence",
+    "position_size"
+   ],
+   "detail": "confidence: confidence 0.53 >= 0.6; position_size: notional 1000.00 <= 10.0% of equity (1000.00)"
+  },
+  {
+   "ts": "2026-10-09T06:22:06Z",
+   "symbol": "ETHUSDT",
+   "failed": [
+    "confidence",
+    "position_size"
+   ],
+   "detail": "confidence: confidence 0.56 >= 0.6; position_size: notional 1000.00 <= 10.0% of equity (1000.00)"
+  },
+  {
+   "ts": "2026-10-09T06:22:06Z",
+   "symbol": "ETHUSDT",
+   "failed": [
+    "confidence",
+    "position_size"
+   ],
+   "detail": "confidence: confidence 0.56 >= 0.6; position_size: notional 1000.00 <= 10.0% of equity (1000.00)"
+  },
+  {
+   "ts": "2026-10-09T06:22:06Z",
+   "symbol": "ETHUSDT",
+   "failed": [
+    "confidence"
+   ],
+   "detail": "confidence: confidence 0.57 >= 0.6"
+  },
+  {
+   "ts": "2026-10-09T06:22:06Z",
+   "symbol": "ETHUSDT",
+   "failed": [
+    "confidence"
+   ],
+   "detail": "confidence: confidence 0.58 >= 0.6"
+  },
+  {
+   "ts": "2026-10-09T06:22:06Z",
+   "symbol": "ETHUSDT",
+   "failed": [
+    "confidence",
+    "position_size"
+   ],
+   "detail": "confidence: confidence 0.59 >= 0.6; position_size: notional 1000.00 <= 10.0% of equity (1000.00)"
+  },
+  {
+   "ts": "2026-10-09T06:22:06Z",
+   "symbol": "ETHUSDT",
+   "failed": [
+    "confidence",
+    "position_size"
+   ],
+   "detail": "confidence: confidence 0.58 >= 0.6; position_size: notional 1000.00 <= 10.0% of equity (1000.00)"
+  },
+  {
+   "ts": "2026-10-09T06:22:06Z",
+   "symbol": "ETHUSDT",
+   "failed": [
+    "confidence"
+   ],
+   "detail": "confidence: confidence 0.58 >= 0.6"
+  },
+  {
+   "ts": "2026-10-09T06:22:06Z",
+   "symbol": "SOLUSDT",
+   "failed": [
+    "confidence"
+   ],
+   "detail": "confidence: confidence 0.4 >= 0.6"
+  },
+  {
+   "ts": "2026-10-09T06:22:06Z",
+   "symbol": "SOLUSDT",
+   "failed": [
+    "confidence",
+    "position_size"
+   ],
+   "detail": "confidence: confidence 0.41 >= 0.6; position_size: notional 994.00 <= 10.0% of equity (994.00)"
+  },
+  {
+   "ts": "2026-10-09T06:22:06Z",
+   "symbol": "SOLUSDT",
+   "failed": [
+    "confidence"
+   ],
+   "detail": "confidence: confidence 0.44 >= 0.6"
+  },
+  {
+   "ts": "2026-10-09T06:22:06Z",
+   "symbol": "SOLUSDT",
+   "failed": [
+    "confidence"
+   ],
+   "detail": "confidence: confidence 0.44 >= 0.6"
+  },
+  {
+   "ts": "2026-10-09T06:22:06Z",
+   "symbol": "SOLUSDT",
+   "failed": [
+    "confidence",
+    "position_size"
+   ],
+   "detail": "confidence: confidence 0.45 >= 0.6; position_size: notional 994.00 <= 10.0% of equity (994.00)"
+  },
+  {
+   "ts": "2026-10-09T06:22:06Z",
+   "symbol": "SOLUSDT",
+   "failed": [
+    "confidence"
+   ],
+   "detail": "confidence: confidence 0.42 >= 0.6"
+  },
+  {
+   "ts": "2026-10-09T06:22:07Z",
+   "symbol": "SOLUSDT",
+   "failed": [
+    "confidence",
+    "position_size"
+   ],
+   "detail": "confidence: confidence 0.42 >= 0.6; position_size: notional 994.00 <= 10.0% of equity (994.00)"
+  },
+  {
+   "ts": "2026-10-09T06:22:07Z",
+   "symbol": "SOLUSDT",
+   "failed": [
+    "confidence",
+    "position_size"
+   ],
+   "detail": "confidence: confidence 0.43 >= 0.6; position_size: notional 994.00 <= 10.0% of equity (994.00)"
+  },
+  {
+   "ts": "2026-10-09T06:22:07Z",
+   "symbol": "SOLUSDT",
+   "failed": [
+    "confidence"
+   ],
+   "detail": "confidence: confidence 0.44 >= 0.6"
+  },
+  {
+   "ts": "2026-10-09T06:22:07Z",
+   "symbol": "SOLUSDT",
+   "failed": [
+    "confidence"
+   ],
+   "detail": "confidence: confidence 0.46 >= 0.6"
+  },
+  {
+   "ts": "2026-10-09T06:22:07Z",
+   "symbol": "SOLUSDT",
+   "failed": [
+    "confidence"
+   ],
+   "detail": "confidence: confidence 0.47 >= 0.6"
+  },
+  {
+   "ts": "2026-10-09T06:22:07Z",
+   "symbol": "SOLUSDT",
+   "failed": [
+    "confidence",
+    "position_size"
+   ],
+   "detail": "confidence: confidence 0.48 >= 0.6; position_size: notional 994.00 <= 10.0% of equity (994.00)"
+  },
+  {
+   "ts": "2026-10-09T06:22:07Z",
+   "symbol": "SOLUSDT",
+   "failed": [
+    "confidence",
+    "position_size"
+   ],
+   "detail": "confidence: confidence 0.52 >= 0.6; position_size: notional 994.00 <= 10.0% of equity (994.00)"
+  },
+  {
+   "ts": "2026-10-09T06:22:07Z",
+   "symbol": "SOLUSDT",
+   "failed": [
+    "confidence",
+    "position_size"
+   ],
+   "detail": "confidence: confidence 0.53 >= 0.6; position_size: notional 994.00 <= 10.0% of equity (994.00)"
+  },
+  {
+   "ts": "2026-10-09T06:22:07Z",
+   "symbol": "SOLUSDT",
+   "failed": [
+    "confidence"
+   ],
+   "detail": "confidence: confidence 0.54 >= 0.6"
+  },
+  {
+   "ts": "2026-10-09T06:22:07Z",
+   "symbol": "SOLUSDT",
+   "failed": [
+    "confidence"
+   ],
+   "detail": "confidence: confidence 0.5 >= 0.6"
+  },
+  {
+   "ts": "2026-10-09T06:22:07Z",
+   "symbol": "SOLUSDT",
+   "failed": [
+    "confidence",
+    "position_size"
+   ],
+   "detail": "confidence: confidence 0.5 >= 0.6; position_size: notional 994.00 <= 10.0% of equity (994.00)"
+  },
+  {
+   "ts": "2026-10-09T06:22:07Z",
+   "symbol": "SOLUSDT",
+   "failed": [
+    "confidence"
+   ],
+   "detail": "confidence: confidence 0.52 >= 0.6"
+  },
+  {
+   "ts": "2026-10-09T06:22:07Z",
+   "symbol": "SOLUSDT",
+   "failed": [
+    "confidence",
+    "position_size"
+   ],
+   "detail": "confidence: confidence 0.53 >= 0.6; position_size: notional 994.00 <= 10.0% of equity (994.00)"
+  },
+  {
+   "ts": "2026-10-09T06:22:07Z",
+   "symbol": "SOLUSDT",
+   "failed": [
+    "confidence",
+    "position_size"
+   ],
+   "detail": "confidence: confidence 0.54 >= 0.6; position_size: notional 994.00 <= 10.0% of equity (994.00)"
+  },
+  {
+   "ts": "2026-10-09T06:22:07Z",
+   "symbol": "SOLUSDT",
+   "failed": [
+    "confidence",
+    "position_size"
+   ],
+   "detail": "confidence: confidence 0.5 >= 0.6; position_size: notional 994.00 <= 10.0% of equity (994.00)"
+  },
+  {
+   "ts": "2026-10-09T06:22:07Z",
+   "symbol": "SOLUSDT",
+   "failed": [
+    "confidence",
+    "position_size"
+   ],
+   "detail": "confidence: confidence 0.52 >= 0.6; position_size: notional 994.00 <= 10.0% of equity (994.00)"
+  },
+  {
+   "ts": "2026-10-09T06:22:07Z",
+   "symbol": "SOLUSDT",
+   "failed": [
+    "confidence",
+    "position_size"
+   ],
+   "detail": "confidence: confidence 0.51 >= 0.6; position_size: notional 994.00 <= 10.0% of equity (994.00)"
+  },
+  {
+   "ts": "2026-10-09T06:22:07Z",
+   "symbol": "SOLUSDT",
+   "failed": [
+    "confidence"
+   ],
+   "detail": "confidence: confidence 0.49 >= 0.6"
+  },
+  {
+   "ts": "2026-10-09T06:22:07Z",
+   "symbol": "SOLUSDT",
+   "failed": [
+    "confidence"
+   ],
+   "detail": "confidence: confidence 0.49 >= 0.6"
+  },
+  {
+   "ts": "2026-10-09T06:22:07Z",
+   "symbol": "SOLUSDT",
+   "failed": [
+    "confidence"
+   ],
+   "detail": "confidence: confidence 0.5 >= 0.6"
+  },
+  {
+   "ts": "2026-10-09T06:22:07Z",
+   "symbol": "SOLUSDT",
+   "failed": [
+    "confidence"
+   ],
+   "detail": "confidence: confidence 0.49 >= 0.6"
+  },
+  {
+   "ts": "2026-10-09T06:22:07Z",
+   "symbol": "SOLUSDT",
+   "failed": [
+    "confidence",
+    "position_size"
+   ],
+   "detail": "confidence: confidence 0.51 >= 0.6; position_size: notional 994.00 <= 10.0% of equity (994.00)"
+  },
+  {
+   "ts": "2026-10-09T06:22:07Z",
+   "symbol": "SOLUSDT",
+   "failed": [
+    "confidence",
+    "position_size"
+   ],
+   "detail": "confidence: confidence 0.54 >= 0.6; position_size: notional 994.00 <= 10.0% of equity (994.00)"
+  },
+  {
+   "ts": "2026-10-09T06:22:07Z",
+   "symbol": "SOLUSDT",
+   "failed": [
+    "confidence"
+   ],
+   "detail": "confidence: confidence 0.54 >= 0.6"
+  },
+  {
+   "ts": "2026-10-09T06:22:07Z",
+   "symbol": "SOLUSDT",
+   "failed": [
+    "confidence",
+    "position_size"
+   ],
+   "detail": "confidence: confidence 0.45 >= 0.6; position_size: notional 994.00 <= 10.0% of equity (994.00)"
+  },
+  {
+   "ts": "2026-10-09T06:22:07Z",
+   "symbol": "SOLUSDT",
+   "failed": [
+    "confidence",
+    "position_size"
+   ],
+   "detail": "confidence: confidence 0.47 >= 0.6; position_size: notional 994.00 <= 10.0% of equity (994.00)"
+  },
+  {
+   "ts": "2026-10-09T06:22:07Z",
+   "symbol": "SOLUSDT",
+   "failed": [
+    "confidence"
+   ],
+   "detail": "confidence: confidence 0.47 >= 0.6"
+  },
+  {
+   "ts": "2026-10-09T06:22:07Z",
+   "symbol": "SOLUSDT",
+   "failed": [
+    "confidence",
+    "position_size"
+   ],
+   "detail": "confidence: confidence 0.46 >= 0.6; position_size: notional 994.00 <= 10.0% of equity (994.00)"
+  },
+  {
+   "ts": "2026-10-09T06:22:07Z",
+   "symbol": "SOLUSDT",
+   "failed": [
+    "confidence"
+   ],
+   "detail": "confidence: confidence 0.49 >= 0.6"
+  },
+  {
+   "ts": "2026-10-09T06:22:07Z",
+   "symbol": "SOLUSDT",
+   "failed": [
+    "confidence",
+    "position_size"
+   ],
+   "detail": "confidence: confidence 0.54 >= 0.6; position_size: notional 994.00 <= 10.0% of equity (994.00)"
+  },
+  {
+   "ts": "2026-10-09T06:22:07Z",
+   "symbol": "SOLUSDT",
+   "failed": [
+    "confidence",
+    "position_size"
+   ],
+   "detail": "confidence: confidence 0.56 >= 0.6; position_size: notional 994.00 <= 10.0% of equity (994.00)"
+  },
+  {
+   "ts": "2026-10-09T06:22:07Z",
+   "symbol": "SOLUSDT",
+   "failed": [
+    "confidence"
+   ],
+   "detail": "confidence: confidence 0.55 >= 0.6"
+  },
+  {
+   "ts": "2026-10-09T06:22:07Z",
+   "symbol": "SOLUSDT",
+   "failed": [
+    "confidence",
+    "position_size"
+   ],
+   "detail": "confidence: confidence 0.52 >= 0.6; position_size: notional 994.00 <= 10.0% of equity (994.00)"
+  }
+ ]
+}
